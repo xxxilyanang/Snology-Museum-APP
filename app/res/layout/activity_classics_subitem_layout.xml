@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".activity.ClassicsItemActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_classicsItem_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+        <TextView
+            android:id="@+id/tv_classicsItems_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="文学典籍"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_share"
+            android:layout_gravity="right"
+            android:alpha="0.3"
+            android:layout_marginRight="10dp">
+        </ImageButton>
+    </androidx.appcompat.widget.Toolbar>
+    <ListView
+        android:id="@+id/lv_classicsItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

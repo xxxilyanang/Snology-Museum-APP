@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <com.example.gxcg.util.BanSlidingViewPager
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.example.gxcg.util.BanSlidingViewPager>
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:orientation="horizontal">-->
+
+    <!--        <Button-->
+    <!--            android:tag="首页"-->
+    <!--            android:background="@null"-->
+    <!--            android:id="@+id/frag_main_button"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:text="首页" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/jdalbutton"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@null"-->
+    <!--            android:tag="经典案例"-->
+    <!--            android:text="经典案例" />-->
+
+    <!--        <Button-->
+    <!--            android:tag="走进民法典"-->
+    <!--            android:id="@+id/button3"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@null"-->
+    <!--            android:text="走进民法典" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/main_sf"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@null"-->
+    <!--            android:tag="司法解释"-->
+    <!--            android:text="司法解释" />-->
+    <!--    </LinearLayout>-->
+    <devlight.io.library.ntb.NavigationTabBar
+        android:id="@+id/ntb_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:ntb_badge_gravity="top"
+        app:ntb_badge_position="right"
+        android:background="@color/lightbrown"
+        app:ntb_badged="true"
+        app:ntb_scaled="true"
+        app:ntb_swiped="true"
+        app:ntb_tinted="true"
+        app:ntb_title_mode="all"
+        app:ntb_titled="true" />
+</LinearLayout>

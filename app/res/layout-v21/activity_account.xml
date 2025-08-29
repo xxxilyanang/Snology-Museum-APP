@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:id="@+id/account"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/mainfragment_shape1">
+
+        <TextView
+            android:id="@+id/account_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="&lt;"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="137dp"
+            android:layout_marginLeft="137dp"
+            android:layout_marginTop="15dp"
+            android:text="账号管理"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_name_layout">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="昵称"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"
+            />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|right"
+                android:id="@+id/account_name"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="#F5F5F5"/>
+        <LinearLayout
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_password_layout">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="密码"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|right"
+                android:id="@+id/account_password"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_phone_layout">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="电话"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|right"
+                android:id="@+id/account_phone"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="#F5F5F5"/>
+        <LinearLayout
+            android:baselineAligned="false"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_sex_layout">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="性别"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|right"
+                android:id="@+id/account_sex"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="#F5F5F5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_signature_layout"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="签名"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|left"
+                android:id="@+id/account_signature"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:textColor="#F5F5F5"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:id="@+id/account_age_layout"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:textSize="20dp"
+                android:text="年龄"
+                android:gravity="center_vertical|left"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:layout_marginLeft="50dp"
+                android:gravity="center_vertical|right"
+                android:id="@+id/account_age"
+                android:maxLines="1"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+
+                android:textSize="20dp"
+                android:gravity="center_vertical|right"
+                android:text="&gt;"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

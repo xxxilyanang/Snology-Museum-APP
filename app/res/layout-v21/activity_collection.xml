@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/mainfragment_shape1">
+
+        <TextView
+            android:id="@+id/collection_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="&lt;"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="11dp"
+            android:text="我的收藏"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+
+        <TextView
+            android:id="@+id/collection_article"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:text="文章"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/my_article"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="37dp" />
+
+        <TextView
+            android:id="@+id/collection_video"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:text="视频"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/my_video"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="37dp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/collection_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <!--    app:tabIndicator="@drawable/shape_tablayout_indicator"-->
+</LinearLayout>

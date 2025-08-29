@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbrown"
+    android:alpha="0.8"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_course_leftlist"
+        android:background="#b8926b">
+        <ListView
+            android:id="@+id/listview_course_left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:divider="#d0b78f"
+            android:dividerHeight="1dp"
+            android:scrollbars="none" /><!--android:layout_marginTop="100dp"-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightbrown"
+        android:orientation="vertical"
+        ><!--android:layout_marginTop="100dp"-->
+
+        <GridView
+            android:id="@+id/gridview_course_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="5dp"
+            android:numColumns="1"
+            android:scrollbars="none"
+
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

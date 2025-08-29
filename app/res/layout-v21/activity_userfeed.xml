@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F5F5F5">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:background="@drawable/mainfragment_shape1">
+
+        <TextView
+            android:id="@+id/feedback_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical|left"
+            android:text="&lt;"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="136dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="15dp"
+            android:text="用户反馈"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginTop="40dp"
+           android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/feedback_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="欢迎您提出宝贵的意见和建议，您的建议对我们改善服务非常有帮助。"
+            android:textSize="19dp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@color/black"/>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/feedback_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="111dp"
+                android:text="提交反馈"
+                android:textSize="19dp" />
+
+
+            <EditText
+                android:id="@+id/feedback_content"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="50dip"
+                android:background="@color/white"
+                android:gravity="top"
+                android:hint="请输入您的反馈意见（字数500以内）"
+                android:maxEms="10"
+                android:minEms="10" />
+
+            <TextView
+                android:id="@+id/feedback_result"
+                android:layout_width="245dp"
+                android:layout_height="56dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="146dp"
+                android:layout_marginLeft="146dp"
+                android:layout_marginBottom="29dp"
+                android:gravity="center_vertical|right"
+                android:text="看看反馈结果吧----&gt;"
+                android:textSize="17dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/flyz_list"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_below="@+id/flyz_list"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/fbtext"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="发表你的意见"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="169dp"
+            android:layout_height="23dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="21dp"
+            android:layout_toEndOf="@+id/fbtext"
+            android:layout_toRightOf="@+id/fbtext"
+            android:background="@drawable/user6"
+            android:text="发表"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</RelativeLayout>

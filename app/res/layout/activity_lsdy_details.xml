@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/mainfragment_shape1" />
+
+        <SearchView
+            android:id="@+id/mainfragment_search"
+            android:layout_width="300dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="57dp"
+            android:layout_marginRight="57dp"
+            android:iconifiedByDefault="false"
+            android:inputType="textFilter"
+            android:queryHint="搜索话题"
+            android:theme="@style/Search" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tmtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="标题"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/tx"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:id="@+id/twr"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:text="发起人"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rq"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/twr"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/tx"
+            android:layout_toRightOf="@+id/tx"
+            android:text="2023/9/14" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="502dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="502dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:lineSpacingMultiplier="2"
+                    android:text="话题内容"
+                    android:textColor="#0C0C0C" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fz"
+                    android:text="热门评论"
+                    android:textColor="#F80606"
+                    android:textSize="20sp" />
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/comments_Pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#efeefe"></androidx.viewpager.widget.ViewPager>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp">
+
+            <Button
+                android:id="@+id/fbpl"
+                android:layout_width="164dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginBottom="17dp"
+                android:layout_toEndOf="@+id/fbpltext"
+                android:layout_toRightOf="@+id/fbpltext"
+                android:background="@drawable/user6"
+                android:text="发表"
+                android:textColor="@color/pink" />
+
+            <EditText
+                android:id="@+id/fbpltext"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="发表你的意见"
+                android:inputType="textPersonName" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

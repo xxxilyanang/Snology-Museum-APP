@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/lsdyItem"
+        android:layout_width="wrap_content"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="151dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/usershape_head">
+
+            <ImageView
+                android:id="@+id/yhimg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/head" />
+
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@+id/dy_nr"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:src="@drawable/more" />
+
+
+            <TextView
+                android:id="@+id/yh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dy_tm"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:text="用户名"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/sj"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_below="@+id/dy_nr"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:gravity="center_horizontal"
+                android:text="2022.2.14" />
+
+            <TextView
+                android:id="@+id/dy_tm"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="话题题目"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dy_nr"
+                android:layout_width="362dp"
+                android:layout_height="65dp"
+                android:layout_below="@+id/yh"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="话题内容"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

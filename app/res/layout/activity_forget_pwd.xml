@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="509dp"
+        android:background="@drawable/register_up_back">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/register_pic" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_in_forget_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+
+            app:navigationIcon="?attr/homeAsUpIndicator">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp"
+                android:text="忘记密码"
+
+                android:textSize="20dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="409dp"
+            android:layout_height="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="-1dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/title_bar_tall" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="563dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/register_down_back">
+
+        <Button
+            android:id="@+id/button_InForget_ChangePwd"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="102dp"
+            android:background="@drawable/login_button_selector"
+            android:text="确认修改"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/editText_InForget_CAPTCHA"
+            android:layout_width="209dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="253dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="269dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_InForget_userAffirmPwd"
+            android:layout_width="291dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="337dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请确认新密码"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_InForget_userNewPwd"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="404dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入新密码"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_InForget_userID"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="474dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入您的账号ID"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="112dp"
+            android:layout_height="39dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="271dp"
+            android:src="@drawable/yanzheng" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="129dp"
+            android:text="新密码：" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="197dp"
+            android:text="确认密码：" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="265dp"
+            android:text="验证码：" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="61dp"
+            android:text="账号：" />
+    </RelativeLayout>
+</RelativeLayout>

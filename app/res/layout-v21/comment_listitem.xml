@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:id="@+id/relative_comment"
+    android:orientation="vertical"
+    android:background="#f5f5f5">
+
+    <TextView
+        android:id="@+id/comment_name"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="0dp"
+        android:maxLines="1"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="17dp"
+        android:id="@+id/comment_context"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="收藏时间："
+        android:textSize="17dp"
+        android:id="@+id/comment_time"/>
+
+</LinearLayout>

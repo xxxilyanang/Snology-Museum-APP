@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/mainfragment_shape1" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="0dp"
+            android:text="" />
+
+        <SearchView
+            android:id="@+id/flyz_search"
+            android:layout_width="300dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="39dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:iconifiedByDefault="false"
+            android:inputType="textFilter"
+            android:queryHint="搜索你感兴趣的"
+            android:theme="@style/Search">
+
+        </SearchView>
+
+        <EditText
+            android:hint="请输入标题"
+            android:id="@+id/dytitle"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="155dp"
+            android:layout_height="28dp"
+            android:layout_below="@+id/textView9"
+            android:layout_alignBottom="@+id/textView14"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="9dp"
+            android:gravity="center"
+            android:text="发表新话题"
+            android:textColor="#FF5722" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/dynr"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="208dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="请输入内容"
+        android:inputType="textMultiLine"
+        android:text="" />
+
+    <Button
+        android:id="@+id/adddy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/login_button_selector"
+        android:tag="发表"
+        android:text="发表" />
+</RelativeLayout>

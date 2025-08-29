@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:id="@+id/rela_1"
+    android:background="@drawable/mainfragment_shape1">
+
+    <TextView
+        android:id="@+id/wz_backtext"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:text="文章详情"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/wzdetail_text"
+        android:layout_width="376dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/wz_backtext"
+        android:layout_alignLeft="@+id/wz_backtext"
+        android:layout_alignEnd="@+id/wz_backtext"
+        android:layout_alignRight="@+id/wz_backtext"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-140dp"
+        android:layout_marginLeft="-140dp"
+        android:layout_marginEnd="-152dp"
+        android:layout_marginRight="-152dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:textSize="13dp" />
+</RelativeLayout>

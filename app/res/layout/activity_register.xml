@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="509dp"
+        android:background="@drawable/register_up_back">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/register_pic" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+
+            app:navigationIcon="?attr/homeAsUpIndicator">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp"
+                android:text="注册界面"
+
+                android:textSize="20dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="409dp"
+            android:layout_height="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="-1dp"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/title_bar_tall" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="563dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/register_down_back">
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="34dp"
+            android:background="@drawable/login_button_selector"
+            android:text="确认注册"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/editText_nickname"
+            android:layout_width="290dp"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="252dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="269dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入签名"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="291dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="84dp"
+            android:layout_marginTop="186dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="337dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入姓名"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_pwd"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="118dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="404dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入账号密码"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="474dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入账号ID"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <EditText
+            android:id="@+id/editText_telephone"
+            android:layout_width="292dp"
+            android:layout_height="39dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="86dp"
+            android:layout_marginTop="321dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="202dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:ems="10"
+            android:hint="请输入电话号码"
+            android:inputType="number"
+            android:paddingLeft="16dp"
+            android:textColor="#696969"
+            android:textColorHint="#CACACA" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="129dp"
+            android:text="密码：" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="197dp"
+            android:text="姓名：" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="265dp"
+            android:text="签名：" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="334dp"
+            android:text="电话：" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="390dp"
+            android:text="年龄：" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="441dp"
+            android:text="性别：" />
+
+        <TextView
+            android:id="@+id/textView_select_sex"
+            android:layout_width="139dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="432dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="93dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:gravity="center"
+            android:text="选择性别"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView_select_age"
+            android:layout_width="139dp"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="381dp"
+            android:layout_marginEnd="122dp"
+            android:layout_marginBottom="144dp"
+            android:background="@drawable/login_press_edittext_selector"
+            android:gravity="center"
+            android:text="选择年龄"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="61dp"
+            android:text="账号：" />
+    </RelativeLayout>
+</RelativeLayout>

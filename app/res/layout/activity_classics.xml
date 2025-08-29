@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_classics_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        app:navigationIcon="?attr/homeAsUpIndicator">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="文学典籍"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/classics_tab_layout"
+        android:layout_width="match_parent"
+        app:tabIndicator="@drawable/shape_tablayout_indicator"
+        app:tabIndicatorColor="@color/yellow"
+        app:tabTextAppearance="@style/classics_tablayout_textsize"
+        android:layout_height="50dp">
+    </com.google.android.material.tabs.TabLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F5F5F5"
+        tools:ignore="MissingConstraints"></TextView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_classics"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+</LinearLayout>

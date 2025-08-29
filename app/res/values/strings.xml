@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--下面是自己加的-->
+    <string name="app_name">国学藏馆</string>
+    <string name="user_default_pic">userpic/user_moren.png</string>
+</resources>

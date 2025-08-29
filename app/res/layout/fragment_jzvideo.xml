@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="精选"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/green"></TextView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="王阳明平匪患竟然只靠一封信"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video1"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="王阳明在龙场是怎么悟道的？" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video2"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="周易为什么原本是算卦书？" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video3"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="学会道德经里的这个方法，你离成功更近了" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video4"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="姓名学大师说:好名字是伴随终身的座右铭" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video5"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="孙子兵法教你：什么叫“庙算”—谋定而后动" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video6"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="《周易》告诉你：临近成功，更要稳重。" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video7"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="面相大师告诉你，什么样的人是“潜力股”" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video8"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:gravity="center_vertical|start"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="鼻子大的人，更容易升职加薪？" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <cn.jzvd.JzvdStd
+                    android:id="@+id/jz_video9"
+                    android:layout_width="344dp"
+                    android:layout_height="190dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:layout_marginRight="14dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="18dp"
+                android:text="101010" />
+
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="18dp"
+                android:text="111111" />
+
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:text="121212" />
+
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="18dp"
+                android:text="131313" />
+
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="18dp"
+                android:text="141414" />
+
+
+            <cn.jzvd.JzvdStd
+                android:id="@+id/jz_video14"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

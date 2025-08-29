@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/lsdyItem"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/study_listitem_shape">
+
+            <ImageView
+                android:id="@+id/yhimg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/head" />
+
+            <TextView
+                android:id="@+id/yh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dy_tm"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:text="用户名"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/sj"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_below="@+id/dy_nr"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:gravity="center_horizontal"
+                android:text="2022.2.14" />
+
+            <TextView
+                android:id="@+id/dy_nr"
+                android:layout_width="362dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/yh"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/yhimg"
+                android:layout_toRightOf="@+id/yhimg"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="评论内容"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
